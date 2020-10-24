@@ -49,7 +49,7 @@ type(b)
 #user_name = input('ваше имя\n>>>')
 #age = input('Ваш возраст\n>>>')
 #age = int(age)
-#print('Привет {0} твой возраст {1}'.format(user_name, age))  # метод формат МАССИВ
+print('Привет {0} твой возраст {1}'.format(user_name, age))  # метод формат МАССИВ
 #user_hello_string = f"Привет {user_name} твой возраст {age}"
 #print(user_hello_string)
 
@@ -70,10 +70,10 @@ or
 not
 """
 
-#if age > 18:  #оператор если который вернет правду или ложь
-   # print('Доступ разрешен к разделу ХХХ');
-#elif age > 16:  # сокращение от else if
-    #print('Доступ к боевикам');
+if age > 18:  #оператор если который вернет правду или ложь
+   print('Доступ разрешен к разделу ХХХ');
+elif age > 16:  # сокращение от else if
+    print('Доступ к боевикам');
 #elif age > 8:
    # print('Доступ к мультикам');
 #else:
