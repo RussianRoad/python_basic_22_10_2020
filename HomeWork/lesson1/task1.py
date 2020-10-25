@@ -63,23 +63,13 @@ else:
 
 """
 Задание № 6
-
 """
-first_result = int(input('Введите результат 1 дня'))
-wish_result = int(input('Введите желаемый результат'))
-exp = 0.1
-day_count = (first_result * exp) + first_result
-while day_count < wish_result:
-     exp += 0.1
-     continue
-if day_count >= wish_result:
-    print(Вы достигли результата!)
 
+first_result = int(input('Введите результат 1 дня в км.\n>>>'))
+wish_result = int(input('Введите желаемый результат в км.\n>>>'))
+day_count = 1
+while first_result < wish_result:
+    first_result *= 1.1
+    day_count += 1
+print(f'При ежедневном увеличении нагрузки на 10%, вы достигните желаемого результа через {day_count} дней')
 
-
-#user_name = input('ваше имя\n>>>')
-#age = input('Ваш возраст\n>>>')
-#age = int(age)
-#print('Привет {0} твой возраст {1}'.format(user_name, age))  # метод формат МАССИВ
-#user_hello_string = f"Привет {user_name} твой возраст {age}"
-#print(user_hello_string)
