@@ -13,6 +13,7 @@ print('Приезжайте в "Павел сервис" сделаем деше
 Задание №2
 """
 
+
 print('Вас приветствует конвертатор секунд!')
 user_seconds_request = input('Сколько секунд вы хотите перевести в формат чч:мм:сс?\n>>>')
 user_seconds_request = int(user_seconds_request)
